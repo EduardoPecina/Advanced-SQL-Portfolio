@@ -2,6 +2,16 @@
 
 Advanced SQL portfolio featuring CTEs, Window Functions, analytical rankings, segmentation, and football analytics projects.
 
+## How to run
+
+This repo is self-contained: `football-league.db` is a ready-to-use SQLite database, so there's no setup beyond opening it.
+
+```bash
+sqlite3 football-league.db < advanced_sql_exercises.sql
+```
+
+Or open `football-league.db` directly in any SQLite client (e.g. [DB Browser for SQLite](https://sqlitebrowser.org/)) and run the queries from `advanced_sql_exercises.sql` one at a time.
+
 ## About
 
 This repository contains a collection of advanced SQL exercises completed using a football league database.
